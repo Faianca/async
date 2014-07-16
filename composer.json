@@ -19,7 +19,7 @@
     "autoload": {
         "psr-0": { "Ponteiro\\Guzzle\\Plugin\\Async": "" }
     },
-    "target-dir": "Guzzle/Plugin/Async",
+    "target-dir": "Plugin/Async",
     "extra": {
         "branch-alias": {
             "dev-master": "dev-master"
