@@ -1,6 +1,6 @@
 
 {
-    "name": "ponteiro/guzzle-plugin-async",
+    "name": "ponteiro/guzzle",
     "description": "Guzzle async request plugin",
     "homepage": "http://ponteiro-team.org/",
     "keywords": ["plugin", "guzzle"],
@@ -14,12 +14,11 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "guzzle/http": "self.version"
+        "guzzle/guzzle": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Ponteiro\\Guzzle\\Plugin\\Async": "" }
+        "psr-0": { "Guzzle\\Plugin": "" }
     },
-    "target-dir": "Ponteiro/Guzzle/Plugin/Async",
     "extra": {
         "branch-alias": {
             "dev-master": "dev-master"
