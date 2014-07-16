@@ -1,0 +1,29 @@
+
+{
+    "name": "ponteiro/guzzle-plugin-async",
+    "description": "Guzzle async request plugin",
+    "homepage": "http://ponteiro-team.org/",
+    "keywords": ["plugin", "guzzle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Meireles",
+            "email": "jorgefaianca@gmail.com",
+            "homepage": "https://github.com/faianca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "guzzle/http": "self.version"
+    },
+    "autoload": {
+        "psr-0": { "Ponteiro\\Guzzle\\Plugin\\Async": "" }
+    },
+    "target-dir": "Ponteiro/Guzzle/Plugin/Async",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    }
+}
+
