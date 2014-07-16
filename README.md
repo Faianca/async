@@ -9,4 +9,4 @@ Guzzle Async plugin
     
     $client = new Client('http://www.example.com');
     $client->addSubscriber(new AsyncPlugin());
-    $response = $client->get()->send();
+    $client->get()->send();
