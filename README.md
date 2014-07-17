@@ -1,6 +1,14 @@
 Guzzle Async plugin
 =====
 
+### Add to composer
+    "ponteiro/guzzle": "1.*"
+    
+    "repositories" : [
+            "type" : "vcs",
+            "url"  : "https://github.com/jmeireles/async.git"
+        }
+    ]
 
 ###How to use
 
