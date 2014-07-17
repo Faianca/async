@@ -8,8 +8,6 @@ use Guzzle\Http\Exception\CurlException;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
- *
- *
  * @package    Ponteiro/Guzzle
  * @category   Plugin
  * @author     Jorge Meireles
@@ -41,8 +39,7 @@ class AsyncPlugin implements EventSubscriberInterface
 
 
     /**
-     * Since we set Curl timeout to 1MS we know for sure that he will throw an exception
-     * when he does we set a new response ( simulates that he finished )
+     * After times outs
      * @param Event $event
      */
     public function onRequestTimeout(Event $event)
