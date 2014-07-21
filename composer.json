@@ -18,11 +18,6 @@
     },
     "autoload": {
         "psr-0": { "Ponteiro\\Guzzle\\Plugin": "" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "dev-master"
-        }
     }
 }
 
