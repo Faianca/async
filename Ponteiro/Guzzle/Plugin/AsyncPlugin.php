@@ -34,7 +34,7 @@ class AsyncPlugin implements EventSubscriberInterface
      */
     public function onBeforeSend(Event $event)
     {
-        $event['request']->getCurlOptions()->set(CURLOPT_TIMEOUT_MS, 1);
+        $event['request']->getCurlOptions()->set(CURLOPT_TIMEOUT_MS, 1000);
     }
 
 
